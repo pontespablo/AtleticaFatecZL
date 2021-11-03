@@ -1,0 +1,160 @@
+*{margin:0; padding: 0}*
+
+body {
+    font-size: 18px;
+}
+
+
+/*Barra de acessibilidade*/
+
+#acessibilidade{
+    width: 100%;
+    font-size: 0.7em;
+    background-color: #e0ded9;
+}
+
+#atalhos{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    list-style: none;
+}
+
+#atalhos li{
+    display: inline;
+}
+
+#atalhos li a{
+    color: black;
+    margin-left: 1%;
+}
+
+#atalhos li a:hover{
+    color: blue;
+}
+
+#pgacess{
+    padding-left: 35%;
+}
+
+.contraste, .fonte{
+    padding-left: 0.5%;
+}
+
+
+#logo-topo {
+    width: 12%;
+    height: auto;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+/*Menu superior*/
+
+nav {
+    background-color: rgba(232, 182, 2, 0.1);
+    height: 165px;
+
+}
+
+#logo-topo {
+    width: 7%;
+    height: auto;
+    float: left;
+}
+
+#menu-topo {
+    padding-left: 25%;
+    
+}
+
+#menu-topo li{
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 1%;
+}
+
+#menu-topo a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #630101;   
+}
+
+
+/*Conteúdo principal*/
+main {
+    background-color: white;
+    text-align: center;
+    padding: 15% 0;
+}
+
+
+/*Rodapé*/
+footer {
+    text-align: center;
+    clear:left;
+    padding-top: 12%;
+    background-color: rgba(232, 182, 2, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*breadcrumbs*/
+
+.breadcrumb {
+    padding-left: 1.5%;
+    padding-top: 1%;
+    list-style: none;    
+}
+
+.breadcrumb li {
+    display: inline;    
+    font-size: 0.9em;
+    color:rgb(78, 0, 0);
+}
+
+.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+}
+
+.breadcrumb li+li:before{
+    content: "/\00a0";
+    padding: 6px;
+}
+
+.breadcrumb li a:hover{
+    text-decoration: underline;
+}
