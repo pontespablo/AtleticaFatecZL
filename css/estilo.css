@@ -86,9 +86,28 @@ nav {
 main {
     background-color: white;
     text-align: center;
-    padding: 15% 0;
+    padding: 2% 0;
 }
 
+#banner {
+    width: 50%;
+    height: auto;
+}
+#caixa-mural {
+  border: solid 1px black;
+  margin: 2%;
+}
+
+#mural li{
+    width: 20%;
+    list-style: none;
+    display: block;
+
+}
+
+.box-imagem {
+    width: 50%;
+}
 
 /*Rodapé*/
 footer {
