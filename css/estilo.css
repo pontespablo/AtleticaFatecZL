@@ -120,31 +120,54 @@ h2 {
 footer {
     text-align: center;
     clear:left;
-    padding-top: 12%;
+    padding-top: 2%;
     background-color: rgba(99, 1, 1, 1);
     color: white;
 }
 
 #ico {
-    width: 30%;
-    padding-left: 35%;
+    padding-right: 12%;
+    float: right;
 }
 
-#ico-facebook, #ico-instagram, #ico-localizacao {
-    width: 38px;
+#ico-facebook, #ico-instagram, #ico-email {
+    width: 52px;
+    height: auto;
+}
+#ico-instagram{
+    padding-left: 8px;
+}
+#ico-localizacao {
+    width: 28px;
     height: auto;
 }
 
-
-#ico-localizacao{
+#ico-localizacao, #ico-email{
     display: inline-block;
 }
+#localizacao p, #email p{
+    display: inline-block;
+}
+
+
+#localizacao, #email, #ico {
+    display: block;
+}
+
+#email {
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
 #localizacao p{
-    display: inline-block;
-    text-align: left;
+    margin-bottom: 1%;
+    vertical-align: bottom;
 }
 
-
+#email p {
+    vertical-align: super;
+}
 
 
 
