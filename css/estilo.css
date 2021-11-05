@@ -80,7 +80,7 @@ nav {
 main {
     background-color: white;
     text-align: center;
-    padding: 2% 0;
+    padding: 2%; 
 }
 
 #banner {
@@ -89,9 +89,19 @@ main {
 }
 
 /*Mural*/
+h1 {
+    text-align: left;
+    margin-bottom: 2%;
+}
 
 h2 {
     text-align: left;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.6em;
 }
 
 
@@ -123,6 +133,10 @@ footer {
     padding-top: 2%;
     background-color: rgba(99, 1, 1, 1);
     color: white;
+}
+
+footer p {
+    text-align: center;
 }
 
 #ico {
@@ -172,46 +186,17 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*breadcrumbs*/
 
 .breadcrumb {
-    padding-left: 1.5%;
-    padding-top: 1%;
     list-style: none;    
+    text-align: left;
+    padding-bottom: 1%;
 }
 
 .breadcrumb li {
     display: inline;    
-    font-size: 0.9em;
+    font-size: 1em;
     color:rgb(78, 0, 0);
 }
 
