@@ -110,6 +110,7 @@ p {
   margin: 2%;
   width: 80%;
   padding-left: 10%;
+  overflow-x: scroll;
 }
 
 .quadro-mural {
