@@ -80,7 +80,7 @@ nav {
 main {
     background-color: white;
     text-align: center;
-    padding: 2%; 
+    padding: 2%;
 }
 
 #banner {
@@ -108,22 +108,35 @@ p {
 #caixa-mural {
   border: solid 1px black;
   margin: 2%;
-}
-
-#mural li{
-    width: auto;
-    list-style: none;
-    display: block;
-
+  width: 80%;
+  padding-left: 10%;
 }
 
 .quadro-mural {
-    width: 98%;
+    border: solid 1px blue;
+    width: 85%;
     display: flex;
+    padding: 2%;
+
 }
 
+#mural ul {
+
+   }
+   
+#mural li{
+    width: 90%;
+    list-style: none;
+    display: block;
+    border: solid 1px red;
+    padding: 0 30px 0 30px;
+    
+}
+
+
 .box-imagem {
-    width: 50%;
+    width: 200px;
+    height: 200px;
 }
 
 /*Rodapé*/
