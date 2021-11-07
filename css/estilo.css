@@ -89,6 +89,7 @@ main {
 }
 
 /*Mural*/
+
 h1 {
     text-align: left;
     margin-bottom: 2%;
@@ -107,36 +108,38 @@ p {
 
 #caixa-mural {
   border: solid 1px black;
-  margin: 2%;
+  margin-top: 2%;
+  margin-left: 12%;
   width: 80%;
-  padding-left: 10%;
 }
 
 .quadro-mural {
     border: solid 1px blue;
     width: 85%;
-    display: flex;
+    display: inline-block;
     padding: 2%;
 
 }
 
-#mural ul {
-
+#mural {
+    width: 20%;
+    display: inline-block;
+    border: solid 1px green;
+    margin: 1%;
    }
    
 #mural li{
-    width: 90%;
+    width: 100%;
     list-style: none;
     display: block;
     border: solid 1px red;
-    padding: 0 30px 0 30px;
     
 }
 
 
 .box-imagem {
-    width: 200px;
-    height: 200px;
+    width: 100%;
+    height: auto;
 }
 
 /*Rodapé*/
@@ -225,4 +228,64 @@ footer p {
 
 .breadcrumb li a:hover{
     text-decoration: underline;
+}
+
+
+/*Mural*/
+
+
+h1 {
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+
+#caixa-mural-modalidades {
+  border: solid 1px black;
+  margin-top: 2%;
+  margin-left: 20%;
+  padding: 1% 2% 2% 2%;
+  width: 60%;
+  background-color: #E5E5E5;
+}
+
+.quadro-mural-modalidades {
+    border: solid 1px blue;
+    width: 85%;
+    display: inline-block;
+    padding: 2%;
+
+}
+
+#mural-modalidades  {
+    width: 20%;
+    display: inline-block;
+    border: solid 6px #FEFEFE;
+}
+   
+#mural-modalidades  li{
+    width: 100%;
+    list-style: none;
+    display: block;
+    font-weight: bold;
+    padding-bottom: 10%;
+    /*border: solid 1px red;*/
+    
+}
+
+
+.box-imagem-modalidades  {
+    width: 98%;
+    height: 180px;  
+    opacity: 0.5;
 }
