@@ -45,7 +45,7 @@ body {
 
 nav {
     background-color: rgba(99, 1, 1, 1) /*rgba(232, 182, 2, 0.1)*/;
-    height: 165px;
+    height: 180px;
 
 }
 
@@ -208,6 +208,7 @@ footer p {
     list-style: none;    
     text-align: left;
     padding-bottom: 1%;
+    padding-left: 1%;
 }
 
 .breadcrumb li {
@@ -231,17 +232,42 @@ footer p {
 }
 
 
+#banner-modalidades {
+    width: 100%;
+    height: 350px;
+}
+
+#main-modalidades {
+    margin: 0;
+    padding: 0;
+}
+
 /*Mural*/
 
+.p-modalidades{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.titulo {
+    margin-top: -65px;
+    color: rgb(232, 182, 2);
+    text-align: left;
+    font-size: 3em;
+    font-weight: bold;
+    padding-left: 1%;
+}
 
 #subtitulo {
     text-align: left;
+    padding-left: 1%;
 }
 
 p {
     text-align: left;
     font-size: 1.2em;
     line-height: 1.6em;
+    padding-left: 1%;
 }
 
 
@@ -251,7 +277,7 @@ p {
   margin-left: 20%;
   padding: 1% 2% 2% 1%;
   width: 60%;
-  background-color: #E5E5E5;
+  /*background-color: #E5E5E5;*/
 }
 
 .quadro-mural-modalidades {
@@ -264,7 +290,10 @@ p {
 #mural-modalidades{
     width: 20%;
     display: inline-block;
-    border: solid 6px #FEFEFE;
+    /*border: solid 6px #FEFEFE;*/
+    margin-left: 3%;
+    margin-bottom: 4%;
+    box-shadow: 13px 13px 0px -4px rgba(99, 1, 1, 1); /* box-shadow: eixoX eixoY blur intensidade Cor*/ 
 }
    
 #mural-modalidades  li{
@@ -273,11 +302,19 @@ p {
     display: block;
     font-weight: bold;
     padding-bottom: 10%;
+    background-color: #E5E5E5;
     /*border: solid 1px red;*/ 
 }
 
 
 .box-imagem-modalidades  {
-    width: 98%;
-    height: 180px;  
+    width: 100px;
+    height: 120px; 
+    padding-top: 6%;
 }
+
+/*
+amarelo: rgba(232, 182, 2, 0.836);
+vermelho: rgba(99, 1, 1, 1)
+
+*/
