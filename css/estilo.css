@@ -8,28 +8,28 @@ body {
 
 /*Barra de acessibilidade*/
 
-#acessibilidade{
+#acessibilidade {
     width: 100%;
     font-size: 0.7em;
-    background-color: #e0ded9;
+    background-color: #FEFEFE;
 }
 
-#atalhos{
+#atalhos {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     list-style: none;
 }
 
-#atalhos li{
+#atalhos li {
     display: inline;
 }
 
-#atalhos li a{
+#atalhos li a {
     color: black;
     margin-left: 1%;
 }
 
-#atalhos li a:hover{
+#atalhos li a:hover {
     color: blue;
 }
 
@@ -37,7 +37,7 @@ body {
     padding-left: 35%;
 }
 
-.contraste, .fonte{
+.contraste, .fonte {
     padding-left: 0.5%;
 }
 
@@ -46,7 +46,6 @@ body {
 nav {
     background-color: rgba(99, 1, 1, 1) /*rgba(232, 182, 2, 0.1)*/;
     height: 180px;
-
 }
 
 #logo-topo {
@@ -58,11 +57,10 @@ nav {
 }
 
 #menu-topo {
-    padding-left: 25%;
-    
+    padding-left: 25%;   
 }
 
-#menu-topo li{
+#menu-topo li {
     display: inline-block;
     margin-top: 9%;
     margin-left: 1%;
@@ -76,7 +74,7 @@ nav {
 }
 
 
-/*Conteúdo principal*/
+/*Conteúdo principal - INDEX*/
 main {
     background-color: white;
     text-align: center;
@@ -88,7 +86,7 @@ main {
     height: auto;
 }
 
-/*Mural*/
+/*Mural - INDEX*/
 
 h1 {
     text-align: left;
@@ -118,7 +116,6 @@ p {
     width: 85%;
     display: inline-block;
     padding: 2%;
-
 }
 
 #mural {
@@ -126,14 +123,13 @@ p {
     display: inline-block;
     border: solid 1px green;
     margin: 1%;
-   }
+}
    
-#mural li{
+#mural li {
     width: 100%;
     list-style: none;
     display: block;
     border: solid 1px red;
-    
 }
 
 
@@ -164,21 +160,22 @@ footer p {
     width: 52px;
     height: auto;
 }
-#ico-instagram{
+
+#ico-instagram {
     padding-left: 8px;
 }
+
 #ico-localizacao {
     width: 28px;
     height: auto;
 }
 
-#ico-localizacao, #ico-email{
+#ico-localizacao, #ico-email {
     display: inline-block;
 }
-#localizacao p, #email p{
+#localizacao p, #email p {
     display: inline-block;
 }
-
 
 #localizacao, #email, #ico {
     display: block;
@@ -198,8 +195,6 @@ footer p {
 #email p {
     vertical-align: super;
 }
-
-
 
 
 /*breadcrumbs*/
@@ -234,7 +229,7 @@ footer p {
 
 #banner-modalidades {
     width: 100%;
-    height: 350px;
+    min-height: auto;
 }
 
 #main-modalidades {
@@ -242,9 +237,9 @@ footer p {
     padding: 0;
 }
 
-/*Mural*/
+/*Mural - MODALIDADES*/
 
-.p-modalidades{
+.p-modalidades {
     text-align: center;
     padding-bottom: 1%;
 }
@@ -272,16 +267,13 @@ p {
 
 
 #caixa-mural-modalidades {
-  /*border: solid 1px black;*/
   margin-top: 2%;
   margin-left: 20%;
   padding: 1% 2% 2% 1%;
   width: 60%;
-  /*background-color: #E5E5E5;*/
 }
 
 .quadro-mural-modalidades {
-    /*border: solid 1px blue;*/
     width: 85%;
     display: inline-block;
     padding: 2%;
@@ -290,7 +282,6 @@ p {
 #mural-modalidades{
     width: 20%;
     display: inline-block;
-    /*border: solid 6px #FEFEFE;*/
     margin-left: 3%;
     margin-bottom: 4%;
     box-shadow: 13px 13px 0px -4px rgba(99, 1, 1, 1); /* box-shadow: eixoX eixoY blur intensidade Cor*/ 
@@ -303,15 +294,19 @@ p {
     font-weight: bold;
     padding-bottom: 10%;
     background-color: #E5E5E5;
-    /*border: solid 1px red;*/ 
 }
 
+#mural-modalidades:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
 
-.box-imagem-modalidades  {
+.box-imagem-modalidades {
     width: 100px;
     height: 120px; 
     padding-top: 6%;
 }
+
 
 /*
 amarelo: rgba(232, 182, 2, 0.836);
