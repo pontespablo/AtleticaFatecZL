@@ -437,10 +437,14 @@ label [for="bt_menu"]{
 @media screen and (max-width:630px) {
     #logo-topo {
         display: inline-block;
+        float: none;
         width: 120px;
         height: auto;
         padding-left: 30%; 
-        padding-right: 30%;    
+        padding-right: 30%;   
+    }
+    header{
+        background-color: rgba(99, 1, 1, 1);
     }
     #menu-topo{
         display: none;
