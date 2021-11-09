@@ -230,6 +230,7 @@ footer p {
 #banner-modalidades {
     width: 100%;
     min-height: auto;
+    z-index: -1;
 }
 
 #main-modalidades {
@@ -239,19 +240,25 @@ footer p {
 
 /*Mural - MODALIDADES*/
 
+.titulo {
+    color: rgba(99, 1, 1, 1);
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 525px;
+    background-color: rgba(229, 229, 229, 0.432);
+    width: 100%;
+    line-height: 1.5em;
+}
+
 .p-modalidades {
     text-align: center;
     padding-bottom: 1%;
 }
 
-.titulo {
-    margin-top: -65px;
-    color: rgb(232, 182, 2);
-    text-align: left;
-    font-size: 3em;
-    font-weight: bold;
-    padding-left: 1%;
-}
+
 
 #subtitulo {
     text-align: left;
@@ -306,6 +313,27 @@ p {
     height: 120px; 
     padding-top: 6%;
 }
+
+@media screen and (max-width: 480px){
+        body{
+            font-size: 1em;
+        }
+        .titulo {
+            display: inline;
+            position: unset;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            width: 100%;
+            line-height: 1.5em;
+        }
+
+}
+
+
+
+
+
 
 
 /*
