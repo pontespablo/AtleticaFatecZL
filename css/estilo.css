@@ -257,6 +257,7 @@ footer p {
 @media screen and (max-width: 1366px) {
     .titulo {
         top: 82%;
+        background-color: none;
     }
 }
 
