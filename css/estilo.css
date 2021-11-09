@@ -247,10 +247,17 @@ footer p {
     font-weight: bold;
     position: absolute;
     left: 0;
-    top: 525px;
+    top: 73%;
     background-color: rgba(229, 229, 229, 0.432);
     width: 100%;
     line-height: 1.5em;
+}
+
+/*media query do titulo*/
+@media screen and (max-width: 1366px) {
+    .titulo {
+        top: 82%;
+    }
 }
 
 .p-modalidades {
@@ -314,26 +321,229 @@ p {
     padding-top: 6%;
 }
 
-@media screen and (max-width: 480px){
+/* Media query da breadcrumb*/
+@media screen and (max-width: 630px){
+    .breadcrumb{
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Media query do conteúdo*/
+@media screen and (max-width: 630px){
         body{
             font-size: 1em;
         }
         .titulo {
             display: inline;
             position: unset;
-            text-align: center;
             font-size: 2em;
-            font-weight: bold;
-            width: 100%;
-            line-height: 1.5em;
         }
+        #banner-modalidades {
+            z-index: 1;
+            position: relative;
+            display: inline-block;
+        }
+        .p-modalidades {
+            text-align: justify;
+            width: 68%;
+            font-size: 1em;
+        }
+        p {
+            padding-left: 18%;
+        }
+        #caixa-mural-modalidades {
+          margin-top: 4%;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+        }
+        #mural-modalidades{
+            width: 40%;
+            margin-bottom: 8%;
+            margin-top: 5%;
+        }
+        .box-imagem-modalidades {
+            width: 70px;
+            height: 90px; 
+            padding-top: 8%;
+        }
+}
 
+/* Media query do rodapé*/
+@media screen and (max-width: 630px){
+    footer {
+        width: 100%;
+        display: inline-block;
+        padding: 8% 0;
+    }
+    footer p {
+        display: none;
+    }
+    #ico-facebook, #ico-instagram, #ico-email, #ico-localizacao {
+        float: none;
+        display: inline-block;
+        padding: 0 0 0 16px;
+        margin: 0;
+    }
+    #localizacao, #ico, #email{
+        display: inline-block;
+        float: none;
+    }
+    #localizacao{
+        padding: 0;
+        margin: 0;
+    }
+    #email{
+        padding: 0;
+        margin: 0;
+    }
+    #ico {
+        padding: 0;
+        margin: 0;
+    }
+    #ico-facebook, #ico-instagram {
+        width: 52px;
+        height: auto;
+    }
+    #ico-email {
+        width: 52px;
+        height: 48px;
+    }
+    #localizacao p, #email p {
+        display: none;
+    }
 }
 
 
+/*menu responsivo*/
+
+label [for="bt_menu"]{
+    display: none;
+}
+
+#bt_menu{
+    display: none;
+}
+#dropdown {
+    width: 32px;
+    display: none;
+}
 
 
+/*media query menu responsivo*/
 
+@media screen and (max-width:630px) {
+    #logo-topo {
+        display: inline-block;
+        width: 120px;
+        height: auto;
+        padding-left: 30%; 
+        padding-right: 30%;    
+    }
+    #menu-topo{
+        display: none;
+        padding-left: 0;
+    }
+    nav {
+        height: auto;
+        padding-bottom: 4%;
+    }
+    #dropdown{
+        display: block;
+        position: relative;
+        padding-bottom: 1%;
+    }
+    label[for="bt_menu"]{
+        display: block;
+    }
+    #bt_menu:checked ~ #menu-topo {
+        display: inline-block;
+    }
+    #menu-topo ul{
+        display: block;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    #menu-topo li {
+        position: relative;
+        float: left;
+        width: 98%;
+        border: 2px solid #FEFEFE;
+        text-align: center;
+        padding: 0;
+        margin: 0 2px;
+    }
+
+   /* #menu-topo li ul {
+        position: relative;
+        width: 100%;
+        border: none;
+ 
+    }
+    #menu-topo li ul li{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        float: left;
+        display: block;
+        margin-left:4%;
+        border: none;
+    }
+    */
+     
+}
+
+/* media query da barra de acessibilidade*/
+
+@media screen and (max-width: 1440px) { 
+    #pgacess{
+        padding-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #pgacess{
+        padding-left: 29%;
+    } 
+}
+
+@media screen and (max-width: 1024px) {
+    #pgacess{
+        padding-left: 18%;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    #pgacess{
+        padding-left: 1%;
+    } 
+}
+
+@media screen and (max-width: 630px){
+    #atalhos{
+        font-size: 0.8em;
+        padding: 0;
+        text-align: center ;
+    }
+    ul#atalhos li{
+       display: none;
+     }
+
+     ul#atalhos li#pgacess {
+         display: inline;
+     }
+
+     ul#atalhos li.contraste {
+         display: inline;
+     }
+     ul#atalhos li.fonte{
+         display: inline;
+     }
+
+}   
 
 
 /*
