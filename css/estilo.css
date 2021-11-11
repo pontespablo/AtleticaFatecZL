@@ -126,12 +126,13 @@ p {
     width: 100%;
     list-style: none;
     display: block;
+    text-align: justify;
 }
 
 
 .box-imagem {
-    width: 100%;
-    height: auto;
+    width: 100%; 
+    height: 240px;
 }
 
 /*Rodapé*/
@@ -208,6 +209,11 @@ footer p {
     color:rgb(78, 0, 0);
 }
 
+#main-modalidades .breadcrumb {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .breadcrumb li a {
     color: black;
     text-decoration: none;
@@ -253,11 +259,10 @@ footer p {
 @media screen and (max-width: 1366px) {
     .titulo {
         top: 82%;
-        background-color: unset;
     }
 }
 
-.p-modalidades {
+#main-modalidades p {
     text-align: center;
     padding-bottom: 1%;
 }
@@ -312,11 +317,13 @@ p {
     transition: 1s;
 }
 
+
 .box-imagem-modalidades {
     width: 100px;
     height: 120px; 
     padding-top: 6%;
 }
+
 
 /* Media query da breadcrumb*/
 @media screen and (max-width: 630px){
@@ -335,6 +342,7 @@ p {
         .titulo {
             display: inline;
             position: unset;
+            background-color: unset;
             font-size: 2em;
         }
         #banner-modalidades {
@@ -385,9 +393,9 @@ p {
         width: 100%;
         }
         .box-imagem{
-            width: 1450;
-            height: auto;
+            height: 250px;
         }
+        
 }
 
 /* Media query do rodapé*/
