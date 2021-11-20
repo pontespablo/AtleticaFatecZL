@@ -235,6 +235,11 @@ footer p {
     z-index: -1;
 }
 
+#banner-campeonatos {
+    width: 100%;
+    height: auto;
+}
+
 #main-modalidades {
     margin: 0;
     padding: 0;
