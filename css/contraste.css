@@ -1,0 +1,678 @@
+*{margin:0; padding: 0}*
+
+body {
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+
+
+/*Barra de acessibilidade*/
+
+#acessibilidade {
+    width: 100%;
+    font-size: 0.7em;
+    background-color: black;
+}
+
+#atalhos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    list-style: none;
+}
+
+#atalhos li {
+    display: inline;
+}
+
+#atalhos li a {
+    color: yellow;
+    margin-left: 1%;
+}
+
+#atalhos li a:hover {
+    color: white;
+}
+
+#pgacess{
+    padding-left: 35%;
+}
+
+.contraste, .fonte {
+    padding-left: 0.5%;
+}
+
+/*Menu superior*/
+
+nav {
+    background-color: black;
+    height: 180px;
+}
+
+#logo-topo {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+#menu-topo {
+    padding-left: 25%;   
+}
+
+#menu-topo li {
+    display: inline-block;
+    margin-top: 9%;
+    margin-left: 1%;
+}
+
+#menu-topo a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: yellow;
+}
+
+
+/*Conteúdo principal - INDEX*/
+main {
+    background-color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+#banner {
+    width: 40%;
+    height: auto;
+}
+
+/*Mural - INDEX*/
+
+h1 {
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+h2 {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+
+#caixa-mural {
+  margin-top: 2%;
+  margin-left: 12%;
+  width: 80%;
+}
+
+.quadro-mural {
+    width: 85%;
+    display: inline-block;
+    padding: 2%;
+}
+
+#mural {
+    width: 20%;
+    display: inline-block;
+    margin: 1%;
+}
+   
+#mural li {
+    width: 100%;
+    list-style: none;
+    display: block;
+    text-align: justify;
+}
+
+
+.box-imagem {
+    width: 100%; 
+    height: 240px;
+}
+/* Estilo para formulário de contato */
+#conteudo{
+    width: 92%;
+    min-height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    text-align: justify;
+    background-color: black;
+}
+section{
+    padding: 0;
+}
+input{
+    width: 40%;
+    height: 25px;
+    background-color: #f5f0f0;
+    color: #000;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+
+#assunto{
+    width: 41%;
+    height: 38px;
+    background-color: #f5f0f0;
+    color: #000;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+#data{
+    width: auto;
+    height: 24px;
+    background-color: #f5f0f0;
+    color: #000;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5px;
+
+}
+
+label, legend{
+    font-weight: bold;
+    font-size: 1em;
+    margin-left: 5px;
+
+}
+
+fieldset{
+    border-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+textarea{
+    width: 40%;
+    background-color: #f5f0f0;
+    color: #000;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+input[type=submit]{
+    width: 15%;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    
+}
+input[type=reset]{
+    width: 15%;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    
+}
+
+.required:after{
+    content: " *";
+    color: yellow;
+}
+/*Rodapé*/
+footer {
+    text-align: center;
+    clear:left;
+    padding-top: 2%;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+}
+
+#ico {
+    padding-right: 12%;
+    float: right;
+   
+}
+
+#ico-facebook, #ico-instagram, #ico-email {
+    width: 52px;
+    height: auto;
+}
+
+#ico-instagram {
+    padding-left: 8px;
+}
+
+#ico-localizacao {
+    width: 28px;
+    height: auto;
+}
+
+#ico-localizacao, #ico-email {
+    display: inline-block;
+}
+#localizacao p, #email p {
+    display: inline-block;
+}
+
+#localizacao, #email, #ico {
+    display: block;
+}
+
+#email {
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#localizacao p{
+    margin-bottom: 1%;
+    vertical-align: bottom;
+}
+
+#email p {
+    vertical-align: super;
+}
+
+
+/*breadcrumbs*/
+
+.breadcrumb {
+    list-style: none;    
+    text-align: left;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+.breadcrumb li {
+    display: inline;    
+    font-size: 1em;
+    color:yellow;
+}
+
+#main-modalidades .breadcrumb {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.breadcrumb li a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb li+li:before{
+    content: "/\00a0";
+    padding: 6px;
+}
+
+.breadcrumb li a:hover{
+    text-decoration: underline;
+}
+
+
+#banner-modalidades {
+    width: 100%;
+    min-height: auto;
+    z-index: -1;
+}
+#banner-campeonatos {
+    width: 100%;
+    height: auto;
+}
+#main-modalidades {
+    margin: 0;
+    padding: 0;
+}
+
+/*Mural - MODALIDADES*/
+
+.titulo {
+    color: rgba(99, 1, 1, 1);
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 73%;
+    background-color: rgba(229, 229, 229, 0.432);
+    width: 100%;
+    line-height: 1.5em;
+}
+
+/*media query do titulo*/
+@media screen and (max-width: 1366px) {
+    .titulo {
+        top: 82%;
+    }
+}
+
+#main-modalidades p {
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+
+
+#subtitulo {
+    text-align: left;
+    padding-left: 1%;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    padding-left: 1%;
+}
+
+
+#caixa-mural-modalidades {
+  margin-top: 2%;
+  margin-left: 20%;
+  padding: 1% 2% 2% 1%;
+  width: 60%;
+}
+
+.quadro-mural-modalidades {
+    width: 85%;
+    display: inline-block;
+    padding: 2%;
+}
+
+#mural-modalidades{
+    width: 20%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-bottom: 4%;
+    box-shadow: 13px 13px 0px -4px rgba(99, 1, 1, 1); /* box-shadow: eixoX eixoY blur intensidade Cor*/ 
+}
+   
+#mural-modalidades  li{
+    width: 100%;
+    list-style: none;
+    display: block;
+    font-weight: bold;
+    padding-bottom: 10%;
+    background-color: #E5E5E5;
+}
+
+#mural-modalidades:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.box-imagem-modalidades {
+    width: 100px;
+    height: 120px; 
+    padding-top: 6%;
+}
+
+
+/* Media query da breadcrumb*/
+@media screen and (max-width: 630px){
+    .breadcrumb{
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+
+/* Media query do conteúdo*/
+@media screen and (max-width: 630px){
+        body{
+            font-size: 1em;
+        }
+        .titulo {
+            display: inline;
+            position: unset;
+            background-color: unset;
+            font-size: 2em;
+        }
+        #banner-modalidades {
+            z-index: 1;
+            position: relative;
+            display: inline-block;
+            height: 180px;
+        }
+        p {
+            padding-left: 0%;
+            text-align: justify;
+        }
+        .p-modalidades {
+            text-align: justify;
+            width: 68%;
+            font-size: 1em;
+            padding-left: 18%;
+        }
+       
+        #caixa-mural-modalidades {
+          margin-top: 4%;
+          margin: 0;
+          padding: 0;
+          width: 100%;
+        }
+        #mural-modalidades{
+            width: 40%;
+            margin-bottom: 8%;
+            margin-top: 5%;
+        }
+        .box-imagem-modalidades {
+            width: 70px;
+            height: 90px; 
+            padding-top: 8%;
+        }
+        h1 {
+            text-align: center;
+        }
+        #caixa-mural{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        #quadro-mural{
+            width: 95%;
+        }
+        #mural{
+        width: 100%;
+        }
+        .box-imagem{
+            height: 250px;
+        }
+        
+}
+
+/* Media query do rodapé*/
+@media screen and (max-width: 630px){
+    footer {
+        width: 100%;
+        display: inline-block;
+        padding: 8% 0;
+    }
+    footer p {
+        display: none;
+    }
+    #ico-facebook, #ico-instagram, #ico-email, #ico-localizacao {
+        float: none;
+        display: inline-block;
+        padding: 0 0 0 16px;
+        margin: 0;
+    }
+    #localizacao, #ico, #email{
+        display: inline-block;
+        float: none;
+    }
+    #localizacao{
+        padding: 0;
+        margin: 0;
+    }
+    #email{
+        padding: 0;
+        margin: 0;
+    }
+    #ico {
+        padding: 0;
+        margin: 0;
+    }
+    #ico-facebook, #ico-instagram {
+        width: 52px;
+        height: auto;
+    }
+    #ico-email {
+        width: 52px;
+        height: 48px;
+    }
+    #localizacao p, #email p {
+        display: none;
+    }
+}
+
+
+/*menu responsivo*/
+
+label [for="bt_menu"]{
+    display: none;
+}
+
+#bt_menu{
+    display: none;
+}
+#dropdown {
+    width: 32px;
+    display: none;
+}
+
+
+/*media query menu responsivo*/
+
+@media screen and (max-width:630px) {
+    #logo-topo {
+        display: inline-block;
+        float: none;
+        width: 120px;
+        height: auto;
+        padding-left: 30%; 
+        padding-right: 30%;   
+    }
+    header{
+        background-color: rgba(99, 1, 1, 1);
+    }
+    #menu-topo{
+        display: none;
+        padding-left: 0;
+    }
+    nav {
+        height: auto;
+        padding-bottom: 4%;
+    }
+    #dropdown{
+        display: block;
+        position: relative;
+        padding-bottom: 1%;
+    }
+    label[for="bt_menu"]{
+        display: block;
+    }
+    #bt_menu:checked ~ #menu-topo {
+        display: inline-block;
+    }
+    #menu-topo ul{
+        display: block;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+    #menu-topo li {
+        position: relative;
+        float: left;
+        width: 98%;
+        border: 2px solid #FEFEFE;
+        text-align: center;
+        padding: 0;
+        margin: 0 2px;
+    }
+
+   /* #menu-topo li ul {
+        position: relative;
+        width: 100%;
+        border: none;
+ 
+    }
+    #menu-topo li ul li{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        float: left;
+        display: block;
+        margin-left:4%;
+        border: none;
+    }
+    */
+     
+}
+
+/* media query da barra de acessibilidade*/
+
+@media screen and (max-width: 1440px) { 
+    #pgacess{
+        padding-left: 35%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #pgacess{
+        padding-left: 29%;
+    } 
+}
+
+@media screen and (max-width: 1024px) {
+    #pgacess{
+        padding-left: 18%;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    #pgacess{
+        padding-left: 1%;
+    } 
+}
+
+@media screen and (max-width: 630px){
+    #atalhos{
+        font-size: 0.8em;
+        padding: 0;
+        text-align: center ;
+    }
+    ul#atalhos li{
+       display: none;
+     }
+
+     ul#atalhos li#pgacess {
+         display: inline;
+     }
+
+     ul#atalhos li.contraste {
+         display: inline;
+     }
+     ul#atalhos li.fonte{
+         display: inline;
+     }
+
+}   
+
+
+/*
+amarelo: rgba(232, 182, 2, 0.836);
+vermelho: rgba(99, 1, 1, 1)
+
+*/

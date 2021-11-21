@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Página web da Atlética da FATEC Zona Leste">
     <meta name="keywords" content="Atlética, FATEC, Zona Leste">
-    <meta name="author" content="Alan Serafim, Douglas Silva, Nataly Correia, Pablo Pontes, Thais Almeida">
+    <meta name="author" content="Alan Serafim, Douglas Silva, Nataly Correia, pablo Pontes, Thais Almeida">
     <link rel="stylesheet" href="css/estilo.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="JS/maskcontato.js"></script>
     <script type="text/javascript" src="JS/contraste.js"></script>
     <!--<link rel="icon" href="favicon.ico" type="image/x-icon">-->
-    <title>Campeonatos</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
         <div id="acessibilidade">
             <ul id="atalhos">
-                <li><a href="#main-modalidades" accesskey="1" title="Ir diretamente para o conteúdo">Ir para o conteúdo [1]</a></li>
-                <li><a href="#menu-topo" accesskey="2" title="Ir diretamente para o menu">Ir para o menu [2]</a></li>
+                <li><a href="#conteudo" accesskey="1" title="Ir diretamente para o conteúdo">Ir para o conteúdo [1]</a></li>
+                <li><a href="#menu" accesskey="2" title="Ir diretamente para o menu">Ir para o menu [2]</a></li>
                 <li><a href="#rodape" accesskey="3" title="Ir diretamente para o rodapé">Ir para o rodapé [3]</a></li>
                 <li id="pgacess"><a href="acessibilidade.html" title="Ir para a página de Acessibilidade">ACESSIBILIDADE</a></li>
                 <li class="contraste"><a href="javascript:void(0);" id="contraste">CONTRASTE PRETO</a></li>
@@ -41,19 +43,38 @@
             </ul>
         </nav>
     </header>
-    <main id="main-campeonatos">
-        <img id="banner-campeonatos" src="img/campeonatos_mural.png" alt="Imagem de um troféu encima de uma bola de futebol">
-        <h1 class="titulo">CAMPEONATOS</h1>
-        <ul class="breadcrumb">
-            <li><a href="index.html">Início</a></li>
-            <li>Campeonatos</li>
-        </ul>
-        <section id="caixa-mural-modalidades">
-       
+    <main id="conteudo">
+        <h1>FALE CONOSCO</h1>
+        <section>
+        <form name="contato" id="contato" method="POST">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label for="nome" class="required">Nome</label><br>
+                <input type="text" name="nome" id="nome" required placeholder="Nome Completo"><br>
+                <label for="data" class="required">Data de Nascimento</label><br>
+                <input type="date" name="data" id="data" required><br>
+                <label for="celular" class="celular">Celular</label><br>
+                <input type="tel" name="celular" id="celular" placeholder="(11) 9 9999-9999"><br>
+                <label for="email" class="required">E-mail</label><br>
+                <input type="email" name="e-mail" id="e-mail" required placeholder="seuemail@site.com.br"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem</legend>
+                <label for="assunto" class="required">Assunto</label><br>
+                <select name="assunto" id="assunto" required>
+                    <option value="" selected disabled>Selecione</option>
+                    <option value="Dúvida">Dúvida</option>
+                    <option value="Elogio">Elogio</option>
+                    <option value="Reclamação">Reclamação</option>
+                    </select><br>
+                    <label for="mensagem">Mensagem</label><br>
+                    <textarea class="required" name="mensagem" id="mensagem" placeholder="Digite aqui sua mensagem" rows="10" cols="50" required></textarea>                    
+            </fieldset><br>
+            <input type="submit" name="enviar" id="enviar" value="Enviar"> <input type="reset" name="limpar" id="limpar" value="Limpar">
+          </form> 
         </section>
-        <p>Fique por dentro dos campeonatos que estão rolando, e as classificações</p>
     </main>
-    <footer id="rodape">
+    <footer>
         <div id="localizacao">
             <img id="ico-localizacao" src="img/localizar.ico" alt="imagem do ícone de localização na cor branca">
             <p>Av. Águia de Haia, 2983  Cidade A. E. Carvalho - São Paulo - SP CEP: 03694-000</p>
