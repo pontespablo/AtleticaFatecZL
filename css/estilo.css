@@ -149,7 +149,7 @@ p {
 
 #main-quemsomos .titulo {
     left: 0;
-    top: 60.7%;
+    top: 60%;
 }
 
 #main-campeonatos .titulo {
@@ -617,8 +617,8 @@ label [for="bt_menu"]{
 
 /*QUEM SOMOS*/
 #historia{
-    width: 40%;
-    padding-left: 30%;
+    width: 65%;
+    padding-left: 15%;
     padding-top: 2%;
     font-size: 0.95em;
 }
@@ -639,6 +639,7 @@ label [for="bt_menu"]{
 
 #historia-logos {
     padding-top: 2%;
+    padding-bottom: 4%;
     width: 100%;
 }
 
@@ -652,35 +653,107 @@ label [for="bt_menu"]{
 }
 
 #gestao {
-    width: 80%;
-    padding-top: 4%;
+    width: 65%;
+    margin: 2% 2% 2% 16%;
+    padding: 1% 0 4% 0;
+    background-color: rgba(99, 1, 1, 1);
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px 10px rgb(182, 159, 159);
 }
 
 #gestao h1 {
     text-align: center;
+    color: rgb(232, 182, 2);
 }
 
 #gestao h2, h3, h4 {
     text-align: left;
-    font-size: 00.95em;
+    font-size: 1.1em;
     padding-left: 2%;
 }
 
 .membro {
-    padding-bottom: 1%;
+    padding-bottom: 0;
 }
 
 #diretoria {
-    width: 44%;
+    width: 60%;
     height: auto;
     float: left;
-    padding: 0 2% 8% 28%;
+    margin: 2% 2% 2% 2%;
+    border-radius: 2%;
+    box-shadow: 0px 0px 0px 10px rgb(182, 159, 159);
+}
+
+#gestao .membro h2 {
+    color: whitesmoke;
+    padding-top: 1.6%;
+}
+
+.membro h4 {
+    color: rgb(182, 159, 159);
+}
+
+.membro h3 {
+    text-transform: uppercase;
+    color: rgb(232, 182, 2);
+}
+
+
+/*media query da gestao */
+@media screen and (max-width: 1366px) {
+    #gestao {
+        width: 85%;
+        margin: 0 7% 6% 7%;
+    }
+   
+    #gestao .membro h2 {
+       padding-top: 1%;
+    }
+ 
 }
 
 
 
+/* Media query quem somos mobile*/
+@media screen and (max-width: 630px){
+    #banner-quemsomos{
+        width:100%;
+        height: 160px;
+    }
+    #historia{
+       width: 94%;
+       padding: 3%;
+       margin: 0;
+    }
+    #historia h1 {
+       padding-top: 2%;
+    }
+    #main-quemsomos .breadcrumb {
+        padding-top: 2%;
+        font-size: 0.9em;
+    }
+    #historia-logos {
+        padding: 3% 0 18% 0;
+    }
+    #historia-logos h1 {
+        padding-bottom: 4%;
+    }
+    .logo-evolucao{
+        width: 30%;
+    }
+    #gestao {
+        padding-top: 4%;
+    }
+    #gestao h2, h3, h4 {
+       text-align: center;
+    }
+    #diretoria {
+        float: none;
+        width: 90%;
+    }
 
-
+}
 
 
 
