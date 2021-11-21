@@ -81,13 +81,6 @@ main {
     padding: 2%;
 }
 
-#banner {
-    width: 40%;
-    height: auto;
-}
-
-/*Mural - INDEX*/
-
 h1 {
     text-align: left;
     margin-bottom: 2%;
@@ -101,8 +94,91 @@ p {
     text-align: left;
     font-size: 1.2em;
     line-height: 1.6em;
+    padding-left: 1%;
 }
 
+#banner {
+    width: 40%;
+    height: auto;
+}
+
+#banner-quemsomos{
+    width:100%;
+    height: auto;
+}
+
+#banner-modalidades {
+    width: 100%;
+    min-height: auto;
+    z-index: -1;
+}
+
+#banner-campeonatos {
+    width: 100%;
+    height: auto;
+}
+
+#main-modalidades {
+    margin: 0;
+    padding: 0;
+}
+
+#main-quemsomos {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#main-campeonatos {
+    margin: 0;
+    padding: 0;
+}
+
+.titulo {
+    color: rgba(99, 1, 1, 1);
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 73%;
+    background-color: rgba(229, 229, 229, 0.432);
+    width: 100%;
+    line-height: 1.5em;
+}
+
+#main-quemsomos .titulo {
+    left: 0;
+    top: 60.7%;
+}
+
+#main-campeonatos .titulo {
+    top: 74%;
+
+}
+
+
+/*media query do titulo*/
+@media screen and (max-width: 1366px) {
+    .titulo {
+        top: 82%;
+    }
+    #main-quemsomos .titulo {
+        top: 68%;
+    }
+    #main-campeonatos .titulo {
+        top:73%;
+    }
+}
+
+#subtitulo {
+    text-align: left;
+    padding-left: 1%;
+}
+
+
+
+/*Mural - INDEX*/
 
 #caixa-mural {
   margin-top: 2%;
@@ -228,64 +304,12 @@ footer p {
     text-decoration: underline;
 }
 
-
-#banner-modalidades {
-    width: 100%;
-    min-height: auto;
-    z-index: -1;
-}
-
-#banner-campeonatos {
-    width: 100%;
-    height: auto;
-}
-
-#main-modalidades {
-    margin: 0;
-    padding: 0;
-}
-
 /*Mural - MODALIDADES*/
-
-.titulo {
-    color: rgba(99, 1, 1, 1);
-    text-align: center;
-    font-size: 3em;
-    font-weight: bold;
-    position: absolute;
-    left: 0;
-    top: 73%;
-    background-color: rgba(229, 229, 229, 0.432);
-    width: 100%;
-    line-height: 1.5em;
-}
-
-/*media query do titulo*/
-@media screen and (max-width: 1366px) {
-    .titulo {
-        top: 82%;
-    }
-}
 
 #main-modalidades p {
     text-align: center;
     padding-bottom: 1%;
 }
-
-
-
-#subtitulo {
-    text-align: left;
-    padding-left: 1%;
-}
-
-p {
-    text-align: left;
-    font-size: 1.2em;
-    line-height: 1.6em;
-    padding-left: 1%;
-}
-
 
 #caixa-mural-modalidades {
   margin-top: 2%;
@@ -580,6 +604,88 @@ label [for="bt_menu"]{
      }
 
 }   
+
+/*CAMPEONATOS*/
+
+#main-campeonatos p {
+    text-align: center;
+}
+
+#main-campeonatos .breadcrumb {
+    text-align: center;
+}
+
+/*QUEM SOMOS*/
+#historia{
+    width: 40%;
+    padding-left: 30%;
+    padding-top: 2%;
+    font-size: 0.95em;
+}
+
+#historia p {
+    text-align: justify;
+}
+
+#historia h1 {
+    text-align: center;
+}
+
+#main-quemsomos .breadcrumb {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#historia-logos {
+    padding-top: 2%;
+    width: 100%;
+}
+
+#historia-logos h1 {
+    text-align: center;
+}
+
+.logo-evolucao{
+    width: 14%;
+    height: auto;
+}
+
+#gestao {
+    width: 80%;
+    padding-top: 4%;
+}
+
+#gestao h1 {
+    text-align: center;
+}
+
+#gestao h2, h3, h4 {
+    text-align: left;
+    font-size: 00.95em;
+    padding-left: 2%;
+}
+
+.membro {
+    padding-bottom: 1%;
+}
+
+#diretoria {
+    width: 44%;
+    height: auto;
+    float: left;
+    padding: 0 2% 8% 28%;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /*
